@@ -20,7 +20,7 @@ We benchmarked three CPU-friendly models:
 
 ## 4. Final Model Performance
 - **Model**: `ConvNeXt-Tiny`
-- **Validation Accuracy**: 93.75%
+- **Validation Accuracy**: 94.75%
 - **Validation F1 Score**: 0.9302
 - **Precision**: 0.9410
 - **Recall**: 0.9195
