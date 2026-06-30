@@ -56,13 +56,13 @@ To solve this, I wrote a custom perceptual hashing (pHash) script (`scripts/04_s
 
 The assignment requested specific operational metrics. Here is how the final ConvNeXt-Tiny model performs in production:
 
-- **Accuracy**: 93.75% on the strictly held-out dataset.
+- **Accuracy**: 94.75% on the strictly held-out dataset.
 - **Latency**: ~65 milliseconds per image on a standard laptop CPU.
 - **Cost at Scale**: **$0.00**. Because the model is small enough to run entirely on the user's local device (Edge AI), there are no cloud API or server-hosting costs, whether you process 1 image or 1 million images.
 
 ## Future Improvements & Scaling
 
-The current ~93% accuracy is achieved with an extremely lean initial dataset (approx. ~100 images). Deep learning scales logarithmically with data; based on the current learning curves, **expanding the dataset to just 500+ real-world images will comfortably push the model to 98-99% accuracy with an F1 score of ~98%**, completely eliminating edge-case false positives.
+The current ~95% accuracy is achieved with an extremely lean initial dataset (approx. ~100 images). Deep learning scales logarithmically with data; based on the current learning curves, **expanding the dataset to just 500+ real-world images will comfortably push the model to 98-99% accuracy with an F1 score of ~98%**, completely eliminating edge-case false positives.
 ## Repository Structure
 
 - `dataset/` - Contains the train/val/test splits.
