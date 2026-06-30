@@ -1,0 +1,24 @@
+# Environments
+venv/
+env/
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Datasets and Outputs
+dataset/
+outputs/
+logs/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
