@@ -10,7 +10,6 @@ __pycache__/
 *.so
 
 # Datasets and Outputs
-dataset/
 outputs/
 logs/
 .pytest_cache/
